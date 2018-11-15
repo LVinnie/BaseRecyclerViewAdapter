@@ -1,9 +1,8 @@
 BaseRecyclerViewAdapter
 =========
-一个
+一个基础Databinding的RecyclerViewAdapter
 
 ## How to use
-```
 
 ### layout:
 ```xml
