@@ -48,8 +48,16 @@ public class MyAdapter extends BaseRecyclerViewAdapter<ViewItemBinding, String> 
         //初始化内容
         binding.textView.setText(s);
 
-        //设置点击事件
+        //设置点击事件，然后在Activity的Adapter对象的回调方法里进行操作
         setOnClick(binding.button, i);
+
+        //也可以直接设置点击
+        /*binding.button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //todo
+            }
+        });*/
     }
 }
 ```
