@@ -1,6 +1,7 @@
 BaseRecyclerViewAdapter
 =========
-一个基础Databinding的RecyclerViewAdapter
+一个基于Databinding的RecyclerViewAdapter
+<img src='image/1.jpg' height='500px'/>
 
 ## How to use
 
