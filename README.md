@@ -84,7 +84,11 @@ public class MainActivity extends AppCompatActivity {
         adapter.setOnClickListener(new BaseRecyclerViewAdapter.OnViewClickListener<String>() {
             @Override
             public void onClick(View v, String s, int i) {
-                showToast("I am " + s);
+                switch (v.getId()) {
+                    case R.id.button:
+                        showToast("Click Button ," + s + "," + i);
+                        break;
+                }
             }
         });
     }
