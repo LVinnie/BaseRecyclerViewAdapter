@@ -6,12 +6,6 @@ BaseRecyclerViewAdapter
 
 ### layout:
 ```xml
-<!-- RecyclerView -->
-<android.support.v7.widget.RecyclerView
-    android:id="@+id/recycler_view"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
-
 <!-- view_item.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
